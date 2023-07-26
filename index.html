@@ -4,31 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fruit-brust</title>
+    
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
 </head>
 <body>
-    <header>
-        <!-- header section start here -->
-        <div class="flex justify-around bg-[#F85559] text-white">
-            <div class="flex list-none gap-3">
-              <li>Home</li>
-              <li>About Us</li>
-              <li>Shop</li>
+ 
+    <header class="max-w-7xl mx-auto ">
+      <div class="navbar bg-[#F85559] rounded-full flex justify-center items-center">
 
-            </div>
-            <div class="flex">
-                <img src="./images/logo.png" alt="">
-                <h1 class="text-2xl">Fruit Burst</h1>
-            </div>
-            <div>
-                <input type="text" placeholder="search here" class="input input-bordered input-primary w-full max-w-xs" /> 
-            </div>
+        <div class="navbar">
+          <div class="dropdown">
+            <label tabindex="0" class="btn btn-ghost btn-circle">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+            </label>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a>Home</a></li>
+              <li><a>About Us</a></li>
+              <li><a>Shop </a></li>
+              <li><a>All Fruits</a></li>
+            </ul>
+          </div>
         </div>
+
+
+
+        <div class="navbar">
+          <a class="btn btn-ghost normal-case text-xl">
+            <img src="./images/logo.png" alt="">
+            <h1 class="text-4xl font-bold text-[#fff]">Fruit Burst</h1>
+            </a>
+        </div>
+
+
+       <div class="relative">
+        <input type="text" placeholder="search here" class=" rounded-full h-11 w-80 pl-4">
+        <i class="fa-solid fa-magnifying-glass absolute right-3"></i>
+
+       </div>
+
+
+      </div>
+
+
     </header>
    
    
@@ -371,6 +394,18 @@
 
 </section>
 <!-- deal of the day section end here  -->
+
+
+
+
+
+
+
+<!-- meet the team section start here -->
+
+
+
+
     </main>
 
     <!-- footer section start here  -->
@@ -393,7 +428,7 @@
         <li>My account</li>
     
     </div>
-    <div class="flex list-none justify-center gap-6 mt-6">
+    <div class="flex list-none justify-center gap-6 mt-6 pb-8">
       
         <li><i class="fa-brands fa-twitter" style="color: #e2e5e9;"></i></li>
         <li><i class="fa-brands fa-facebook" style="color: #165ad0;"></i></li>
